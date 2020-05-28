@@ -5,7 +5,7 @@ api.registerConnectorClass('above-site-header', 'discourse-swiper', {
     setupComponent(args, component) {
         api.onPageChange((url, title) => {
             
-            if ((url == "/") || (url == "/latest") || (url == "/?preview_theme_id=3571")) {
+            if ((url == "/") || (url == "/unread") || (url == "/?preview_theme_id=3571")) {
                 $('html').addClass('custom-discourse-swiper');
                 
                 // add a class to the HTML tag for easy CSS targetting
