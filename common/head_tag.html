@@ -14,7 +14,7 @@ api.registerConnectorClass('above-site-header', 'discourse-swiper', {
                var mySwiper = new Swiper ('.swiper-container', {
                   // Optional parameters
                   direction: 'horizontal',
-                  loop: true,
+                  loop: false,
                   // If we need pagination
                   pagination: {
                     el: '.swiper-pagination',
@@ -45,11 +45,21 @@ api.registerConnectorClass('above-site-header', 'discourse-swiper', {
    <div class="swiper-container">
      <div class="swiper-wrapper">
         <div class="swiper-slide">
-             <div class="slpHeroBanner">
+             <div class="slpHeroBanner1">
                   <div class="slpInsideText">
-                  <h1>{{theme-i18n "homebanner_title"}}</h1>
-                  <p>{{theme-i18n "homebanner_text"}}</p>
-                  {{{theme-i18n "homebanner_button"}}}
+                  <h1>{{theme-i18n "homebanner1_title"}}</h1>
+                  <p>{{theme-i18n "homebanner1_text"}}</p>
+                  {{{theme-i18n "homebanner1_button"}}}
+                  </div>
+             </div>
+        </div>
+        
+        <div class="swiper-slide">
+             <div class="slpHeroBanner2">
+                  <div class="slpInsideText">
+                  <h1>{{theme-i18n "homebanner2_title"}}</h1>
+                  <p>{{theme-i18n "homebanner2_text"}}</p>
+                  {{{theme-i18n "homebanner2_button"}}}
                   </div>
              </div>
         </div>
