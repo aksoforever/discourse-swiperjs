@@ -2,13 +2,13 @@
     margin-top:3em;
     margin-bottom:20px;
     display:none;
+
 }
 .custom-discourse-swiper .discourse-swiper{display:block}
 .swiper-container {
     width: 100%;
     height: auto;
     max-height:600px;
-
 }
 
 
@@ -21,33 +21,17 @@
     height: auto;
     font-weight: 100;
     text-align: center;}
-.slpHeroBanner1 {
-    background: url(https://eip.quectel.com/uploads/default/original/1X/16b9c663abc16ec9a8f13e23f6765adf96706152.jpg) no-repeat top right;
-    background-size: auto 100%;
-    background-color: #145ca6;
-    height: auto;
-    max-width: 1920px;
-    margin: auto;
-}
 
-.slpHeroBanner2 {
-    background: url(https://eip.quectel.com/uploads/default/original/2X/a/a86f69f3db62146880aaeab8a1407d614e9d51bc.jpg) no-repeat top right;
-    background-size: auto 100%;
-    
-    background-color: #f3bfb3;
-    height: auto;
-    max-width: 1920px;
-    margin: auto;
-}
 
 
 .slpInsideText {
     @media screen and (min-width:1475px){max-width: 1360px;}
     @media screen and (max-width:1474px){max-width: 1000px;}
-    padding: 70px 10px 100px 30px;
+    padding: 100px 10px 70px 30px;
     margin: auto;
     min-height:260px;
     text-align: left;
+    
     text-transform: none;
 }
 .slpInsideText h1 {
@@ -75,8 +59,16 @@
     border:2px solid #fff;
     border-radius:25px;
     margin-top:30px;
-    margin-right:20px;
+    margin-right:13px;
     display:inline-block;
+}
+
+.slpInsideText a.active {
+    background-color: #fff;
+    color:$primary;
+  
+
+
 }
   
 .slpInsideText a:hover {
