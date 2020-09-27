@@ -90,6 +90,34 @@ api.registerConnectorClass('above-site-header', 'discourse-swiper', {
    
     </section>
     
+     <section class="banner-box wrap">
+
+	<!--ADD A "CLOSE BANNER" BUTTON ON THE TOP RIGHT-->
+	<!--To disable this button, comment the <button> </button> tag-->
+	
+	<button type="button" class="close" id="close">
+             <svg class="fa d-icon d-icon-times svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#times"></use></svg>
+        </button>
+
+        <div class="container">
+	            <!--SECTION HEADER-->
+	        <div class="section-header ">
+		        <!--TITLE-->
+		        <h2 class="x-title">{{{theme-i18n "notice-banner-title"}}}</h2>
+		            <div class="description"><p>{{{theme-i18n "notice-banner-description"}}}</p>
+		            </div>
+		             <!--BUTTON-->
+           		    <div class="buttons" id="my-button">
+              	    <a href="enter-a-url" class="btn-primary btn-icon-text ember-view"><svg class="fa d-icon d-icon-external-link-alt svg-icon svg-node" aria-hidden="true"><use xlink:href="#external-link-alt"></use></svg> {{{theme-i18n "notice-banner-button"}}}</a>
+                    </div>
+	        </div>
+	        <!--/END SECTION HEADER-->
+	   </div>
+        <!--/END CONTAINER-->
+
+</section>
+<!--/END NOTICE BANNER BOX-->
+    
 
 
 </script>
